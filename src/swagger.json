@@ -1,0 +1,87 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"description": "Events server api, which creates events from 9AM to 9PM",
+		"version": "1.0",
+		"title": "events api"
+	},
+	"basePath": "/api/",
+	"tags": [{
+		"name": "events",
+		"description": "create events occurs"
+	}],
+	"schemes": ["http"],
+	"paths": {
+		"/events/": {
+			"post": {
+				"tags": ["events"],
+				"summary": "creation of events",
+				"description": "api which create events",
+				"consumes": ["application/json"],
+				"produces": ["application/json"],
+				"parameters": [{
+					"name": "eventsConfig",
+					"description": "events start and end time in minutes",
+					"required": true,
+					"type": "array",
+					"items":{
+					  "properties": {
+						  "start": {
+							"type": "number"
+						  },
+						  "end": {
+							"type": "number"
+						  }
+					  }
+					}
+				}],
+				"responses": {
+					"200": {
+						"description": "events create successful",
+						"schema": {
+							"$ref": "#/definitions/EventsResponse"
+						}
+					}
+				}
+			}
+		}
+	},
+	"definitions": {
+		"EventsResponse": {
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"events": {
+					"type": "array",
+					"items": {
+					   "properties": {
+						  "id": { "type": "string"},
+						  "title": { "type": "string"},
+						  "startEvent": { 
+							"type": "object",
+							"properties": {
+							  "timeDate": { "type": "string"}
+							}
+						  },
+						  "endEvent": { 
+							"type": "object",
+							"properties": {
+							  "timeDate": { "type": "string"}
+							}
+						  },
+						  "locations": { 
+							"type": "object",
+							"properties": {
+							  "title": { "type": "string"},
+							  "place": { "type": "string"}
+							}
+						  }
+					   }
+					}
+				}
+			}
+		}
+	}
+}

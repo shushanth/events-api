@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1584923938030" clover="3.2.0">
+  <project timestamp="1584923938030" name="All files">
+    <metrics statements="162" coveredstatements="156" conditionals="55" coveredconditionals="45" methods="37" coveredmethods="33" elements="254" coveredelements="234" complexity="0" loc="162" ncloc="162" packages="10" files="12" classes="12"/>
+    <package name="dist">
+      <metrics statements="17" coveredstatements="17" conditionals="7" coveredconditionals="7" methods="4" coveredmethods="4"/>
+      <file name="app.js" path="/Users/shushanthpallegar/Desktop/shushanth/events-server/dist/app.js">
+        <metrics statements="17" coveredstatements="17" conditionals="7" coveredconditionals="7" methods="4" coveredmethods="4"/>
+        <line num="7" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="8" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="dist.controllers">
+      <metrics statements="15" coveredstatements="15" conditionals="7" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="appController.js" path="/Users/shushanthpallegar/Desktop/shushanth/events-server/dist/controllers/appController.js">
+        <metrics statements="15" coveredstatements="15" conditionals="7" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="2" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="dist.routes">
+      <metrics statements="11" coveredstatements="11" conditionals="7" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="appRoutes.js" path="/Users/shushanthpallegar/Desktop/shushanth/events-server/dist/routes/appRoutes.js">
+        <metrics statements="11" coveredstatements="11" conditionals="7" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="dist.services">
+      <metrics statements="33" coveredstatements="32" conditionals="13" coveredconditionals="11" methods="7" coveredmethods="6"/>
+      <file name="appDateService.js" path="/Users/shushanthpallegar/Desktop/shushanth/events-server/dist/services/appDateService.js">
+        <metrics statements="12" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="16" type="stmt"/>
+        <line num="18" count="16" type="stmt"/>
+        <line num="19" count="16" type="stmt"/>
+        <line num="20" count="16" type="stmt"/>
+        <line num="21" count="16" type="stmt"/>
+        <line num="22" count="16" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+      </file>
+      <file name="eventsService.js" path="/Users/shushanthpallegar/Desktop/shushanth/events-server/dist/services/eventsService.js">
+        <metrics statements="21" coveredstatements="21" conditionals="11" coveredconditionals="10" methods="4" coveredmethods="4"/>
+        <line num="2" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="6" type="cond" truecount="3" falsecount="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="8" type="stmt"/>
+        <line num="38" count="8" type="stmt"/>
+        <line num="39" count="8" type="stmt"/>
+        <line num="40" count="8" type="stmt"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="58" count="5" type="stmt"/>
+        <line num="59" count="5" type="stmt"/>
+        <line num="63" count="5" type="stmt"/>
+        <line num="64" count="5" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="dist.utils">
+      <metrics statements="15" coveredstatements="13" conditionals="13" coveredconditionals="9" methods="4" coveredmethods="3"/>
+      <file name="log.js" path="/Users/shushanthpallegar/Desktop/shushanth/events-server/dist/utils/log.js">
+        <metrics statements="15" coveredstatements="13" conditionals="13" coveredconditionals="9" methods="4" coveredmethods="3"/>
+        <line num="2" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="108" type="cond" truecount="2" falsecount="2"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="20" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="27" count="34" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src">
+      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="app.ts" path="/Users/shushanthpallegar/Desktop/shushanth/events-server/src/app.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers">
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="appController.ts" path="/Users/shushanthpallegar/Desktop/shushanth/events-server/src/controllers/appController.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="appRoutes.ts" path="/Users/shushanthpallegar/Desktop/shushanth/events-server/src/routes/appRoutes.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="29" coveredstatements="28" conditionals="6" coveredconditionals="5" methods="6" coveredmethods="5"/>
+      <file name="appDateService.ts" path="/Users/shushanthpallegar/Desktop/shushanth/events-server/src/services/appDateService.ts">
+        <metrics statements="11" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="16" type="stmt"/>
+        <line num="15" count="16" type="stmt"/>
+        <line num="16" count="16" type="stmt"/>
+        <line num="17" count="16" type="stmt"/>
+        <line num="18" count="16" type="stmt"/>
+        <line num="19" count="16" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+      </file>
+      <file name="eventsService.ts" path="/Users/shushanthpallegar/Desktop/shushanth/events-server/src/services/eventsService.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="29" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="8" type="stmt"/>
+        <line num="39" count="8" type="stmt"/>
+        <line num="40" count="8" type="stmt"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="42" count="8" type="stmt"/>
+        <line num="60" count="5" type="stmt"/>
+        <line num="61" count="5" type="stmt"/>
+        <line num="65" count="5" type="stmt"/>
+        <line num="66" count="5" type="stmt"/>
+        <line num="70" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="log.ts" path="/Users/shushanthpallegar/Desktop/shushanth/events-server/src/utils/log.ts">
+        <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="15" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="22" count="34" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
